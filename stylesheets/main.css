@@ -1,0 +1,159 @@
+.clearfix:after { content: ""; display: table; clear: both; }
+
+.container { width: 1170px; margin: 0 auto; }
+
+.bg-top { height: 3px; background-color: #414141; }
+
+/*-----Header----- */
+.header { background-color: #f5f5f5; }
+
+.header-logo { margin-top: 30px; margin-bottom: 30px; display: block; float: left; }
+
+.header-menu { float: right; margin-top: 45px; }
+
+.header-menu-item { float: left; margin-right: 45px; }
+
+.header-menu-item:last-child { margin-right: 0; }
+
+.header-menu-link { font-size: 13pt; font-family: Roboto; font-weight: 900; text-transform: uppercase; color: #606060; text-decoration: none; }
+
+.header-menu-item_active { color: #1abb9c; }
+
+.header-hello { margin-top: 70px; margin-bottom: 65px; }
+
+.header-hello h1 { font-family: Roboto; font-size: 35pt; font-weight: 900; color: #606060; margin-bottom: 20px; }
+.header-hello p { font-family: Roboto; font-weight: 300; font-size: 22pt; color: #606060; }
+
+.slider { margin-bottom: 80px; }
+
+.clear { clear: both; margin: -100px; }
+
+.slider-main-text { display: inline-block; font-family: Roboto; font-weight: 400; font-size: 22pt; color: #606060; padding: 15px 20px; background-color: rgba(250, 250, 250, 0.78); position: relative; bottom: 180px; text-transform: uppercase; left: 50px; }
+
+.slider-light-text { display: inline-block; font-family: Roboto; font-weight: 300; font-size: 19pt; color: #606060; padding: 15px 20px; background-color: rgba(250, 250, 250, 0.78); position: relative; bottom: 78px; left: 50px; }
+.slider-light-text span { color: #1abb9c; }
+
+.slick-next, .slick-prev { width: 45px; height: 45px; z-index: 1; }
+
+.slick-next { right: 20px; background: url("../images/btn_right.png") no-repeat; }
+
+.slick-prev { left: 20px; background: url("../images/btn_left.png") no-repeat; }
+
+.slick-prev:before, .slick-next:before { content: ""; }
+
+.we-do-header-wrap { text-align: center; }
+
+.we-do-header:after, .we-do-header:before { display: inline-block; content: ""; width: 82px; height: 1px; background-color: #606060; vertical-align: top; position: relative; top: 13px; margin-right: 20px; margin-left: 20px; }
+
+.we-do-header { font-family: Roboto; font-weight: 600; font-size: 20pt; display: inline-block; color: #606060; text-align: center; text-transform: uppercase; }
+
+.we-do-header-content { display: inline-block; }
+
+/*-----Blocks Info----- */
+.what-we-item { width: 262.5px; border: 1px solid #656565; float: left; margin-right: 30px; }
+.what-we-item .what-we-item:last-child { margin-right: 0; }
+
+.what-we-item:last-child { margin-right: 0; }
+
+.what-we-item-wraper { margin-top: 40px; margin-bottom: 40px; }
+
+.inside-border { margin: 3px; border: 1px solid #656565; text-align: center; padding: 43px 20px; }
+.inside-border h3 { font-size: 14pt; font-family: Roboto; font-weight: 900; text-transform: uppercase; margin-top: 25px; margin-bottom: 20px; color: #606060; }
+.inside-border p { font-size: 13pt; font-family: Roboto; font-weight: 400; color: #7a7a7a; line-height: 25px; }
+
+/*-----Blocks Info End----- */
+/*-----Our Progress----- */
+.our-progress { background: url("../images/progress_bg.png") no-repeat; background-size: cover; }
+
+.our-progress-wrap { text-align: center; padding-top: 40px; }
+
+.our-progress-content { display: inline-block; }
+
+.our-progress-header { font-family: Roboto; font-weight: 600; font-size: 20pt; display: inline-block; color: #d0d0d0; text-align: center; text-transform: uppercase; }
+
+.our-progress-header:after, .our-progress-header:before { display: inline-block; content: ""; width: 82px; height: 2px; background-color: #d0d0d0; vertical-align: top; position: relative; top: 13px; margin-right: 20px; margin-left: 20px; }
+
+.our-progress-text { font-family: Roboto; font-weight: 300; font-size: 15pt; color: #d0d0d0; text-align: center; padding-top: 25px; padding-bottom: 20px; line-height: 25px; margin-bottom: 45px; }
+
+.progress-wrap { padding-bottom: 75px; padding-right: 20px; padding-left: 20px; }
+
+.progress-item-text { font-family: Roboto; font-weight: 700; color: #ddd; text-transform: uppercase; font-size: 14pt; padding-top: 20px; width: 170px; text-align: center; }
+
+.progress-border { margin: 0 auto; line-height: 130px; width: 100px; height: 100px; border: 1px solid #1abb9c; border-radius: 50%; }
+
+.progress-border:hover { background-color: #1abb9c; transition: 0.3s; }
+
+.progress-border_last:hover { background-color: #1abb9c; transition: 0.3s; }
+
+.progress-border_last { margin: 0 auto; line-height: 130px; width: 100px; height: 100px; border: 1px solid #1abb9c; border-radius: 50%; }
+
+.progress-border:after { display: inline-block; content: ""; width: 140px; height: 1px; background-color: #d0d0d0; vertical-align: top; position: relative; top: -80px; margin-left: 130px; }
+
+.progress-item { text-align: center; width: 170px; float: left; margin-right: 145px; }
+
+.progress-item:last-child { margin-right: 0; }
+
+/*-----Progress End----- */
+/*-----Project----- */
+.our-project-wrap { text-align: center; padding-top: 80px; padding-bottom: 35px; }
+
+.our-project-content { display: inline-block; }
+
+.our-project-header { font-family: Roboto; font-weight: 600; font-size: 20pt; display: inline-block; color: #606060; text-align: center; text-transform: uppercase; }
+
+.our-project-header:after, .our-project-header:before { display: inline-block; content: ""; width: 82px; height: 2px; background-color: #606060; vertical-align: top; position: relative; top: 13px; margin-right: 20px; margin-left: 20px; }
+
+.p-item { width: 370px; overflow: hidden; margin-right: 30px; float: left; text-align: center; }
+.p-item p { font-family: Roboto; font-weight: 500; font-size: 14pt; color: #7a7a7a; line-height: 24px; padding-top: 20px; padding-bottom: 80px; }
+
+.p-item:last-child { margin-right: 0; }
+
+.p-item-main-text { font-family: Roboto; font-weight: 700; color: #606060; text-transform: uppercase; font-size: 15pt; padding-top: 20px; padding-bottom: 10px; }
+
+.p-item-light-text { font-family: Roboto; font-weight: 400; font-size: 12pt; color: #1abb9c; }
+
+/*-----Project End----- */
+/*-----Customers Thinks----- */
+.customers-slider { padding-top: 80px; padding-bottom: 35px; }
+
+.customers { background: url("../images/customers_bg.png") no-repeat; background-size: cover; }
+
+.customers-slide1 { text-align: center; outline: none; padding-bottom: 110px; }
+.customers-slide1 p { font-family: Roboto; font-weight: 300; color: #d8d8d8; line-height: 40px; font-size: 20pt; padding-bottom: 25px; }
+.customers-slide1 a { text-decoration: none; text-transform: uppercase; font-family: Roboto; font-weight: 700; color: #1abb9c; font-size: 12pt; }
+
+/*-----Customers Thinks End----- */
+/*-----Journal----- */
+.journal-item { width: 370px; padding-bottom: 80px; float: left; margin-right: 30px; }
+
+.journal-item:last-child { margin: 0; }
+
+.journal-info { padding-top: 20px; }
+
+.journal-info-data { padding: 10px; font-family: Roboto; text-align: center; width: 45px; height: 45px; font-size: 20px; color: #7a7a7a; float: left; border: 1px solid #7a7a7a; }
+.journal-info-data .num { font-weight: 700; }
+.journal-info-data .mounth { font-weight: 300; margin-top: 5px; }
+
+.journal-info-main-text { font-family: Roboto; font-weight: 800; color: #606060; font-size: 18px; width: 272px; padding: 5px 15px; float: left; }
+
+.journal-info-light-text { font-family: Roboto; font-weight: 400; color: #1abb9c; font-size: 16px; float: left; width: 272px; padding: 5px 15px; }
+
+.journal-info-description { float: left; width: 370px; font-family: Roboto; font-weight: 400; font-size: 14px; color: #7a7a7a; line-height: 27px; padding-top: 15px; }
+
+/*-----Journal End----- */
+/*-----Footer---- */
+.footer { background-color: #373737; }
+
+.footer-item { width: 230px; float: left; margin-right: 60px; }
+.footer-item p { font-family: Roboto; font-weight: 300; font-size: 12pt; color: #cacaca; line-height: 25px; margin-bottom: 35px; }
+
+.footer-item:last-child { margin: 0; }
+
+.footer-main-text { padding-top: 70px; padding-bottom: 20px; font-family: Roboto; font-weight: 700; font-size: 14pt; color: #f0f0f0; text-transform: uppercase; }
+
+.footer-pos, .footer-phone, .footer-mail { font-family: Roboto; font-weight: 300; font-size: 13pt; color: #cacaca; line-height: 25px; margin-bottom: 10px; }
+.footer-pos i, .footer-phone i, .footer-mail i { display: block; width: 25px; padding-top: 5px; height: 20px; float: left; }
+
+.footer-dark-line { background-color: #333; }
+
+.container p { padding: 40px 0px; font-size: 14pt; color: #cacaca; }
