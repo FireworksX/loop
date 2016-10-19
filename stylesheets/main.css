@@ -22,7 +22,7 @@
 .header-hello { margin-top: 70px; margin-bottom: 65px; }
 
 .header-hello h1 { font-family: Roboto; font-size: 35pt; font-weight: 900; color: #606060; margin-bottom: 20px; }
-.header-hello p { font-family: Roboto; font-weight: 300; font-size: 22pt; color: #606060; }
+.header-hello p { font-family: Roboto; font-weight: 300; font-size: 32pt; color: #606060; }
 
 .slider { margin-bottom: 80px; }
 
@@ -156,4 +156,4 @@
 
 .footer-dark-line { background-color: #333; }
 
-.container p { padding: 40px 0px; font-size: 14pt; color: #cacaca; }
+.footer-copy { padding: 40px 0px; font-size: 14pt; color: #cacaca; }
